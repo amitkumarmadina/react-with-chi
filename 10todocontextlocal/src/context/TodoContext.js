@@ -10,7 +10,7 @@ todos:[
 ],
 addTodo: (todo) => {},
 updateTodo: (id,todo) => {},
-deleteTodo: (id) => {},
+deleteTodo: (id)=> {},
 toggleComplete: (id) => {}
 })
 export const useTodo = () => {
