@@ -1,15 +1,15 @@
 import React from 'react'
-import { useSelector ,useDispatch} from 'react-redux'
-import { removeTodo } from '../features/todo/todoSlice'
+import { useSelector, useDispatch } from 'react-redux'
+import {removeTodo} from '../features/todo/todoSlice'
 
 function Todos() {
-   const todos= useSelector((state) => state.todos)
-   const dispatch = useDispatch()
+    const todos = useSelector(state => state.todos)
+    const dispatch = useDispatch()
+
   return (
     <>
     <div>Todos</div>
-    {todos.map((todo) => (
-      <ul className="list-none">
+    <ul className="list-none">
         {todos.map((todo) => (
           <li
             className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
@@ -38,7 +38,6 @@ function Todos() {
           </li>
         ))}
       </ul>
-    ))}
     </>
   )
 }
