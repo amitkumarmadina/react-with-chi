@@ -8,6 +8,7 @@ import Signup from "./Signup";
 import Login from "./Login";
 import PostForm from "./post-form/PostForm";
 import PostCard from "./PostCard";
+import AutLayout from "./AutLayout/AutLayout";
 export {
-    header, footer, container,logo,LogoutBtn,RTE,Signup,Login,PostForm,PostCard
+    header, footer, container,logo,LogoutBtn,RTE,Signup,Login,PostForm,PostCard,AutLayout
 };
